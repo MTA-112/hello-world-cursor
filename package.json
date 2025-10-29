@@ -1,0 +1,27 @@
+{
+  "name": "hello-world-cursor",
+  "version": "1.0.0",
+  "description": "hello world project understanding cursor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/hello-world.ts",
+    "build": "tsc",
+    "start": "node dist/hello-world.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MTA-112/hello-world-cursor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MTA-112/hello-world-cursor/issues"
+  },
+  "homepage": "https://github.com/MTA-112/hello-world-cursor#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
